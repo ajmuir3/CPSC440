@@ -1,0 +1,108 @@
+body {
+font-family: Arial, sans-serif;
+background-image: url("background.png");
+margin: 0;
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+min-height: 100vh; /* Full viewport height */
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center; /* Center the items vertically within the container */
+text-align: center;
+}
+
+form {
+background-color: #ffffff;
+padding: 20px 40px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 400px;
+}
+
+h2 {
+margin-bottom: 5px;
+color: #FFFFFF;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 10vw;
+text-shadow: 2px 2px 5px black;
+}
+
+h3 {
+font-size: 3vw;
+color:#FFFFFF;
+text-shadow: 2px 2px 5px black;
+}
+
+label {
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+text-align: left;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+select{
+width: 10rem;
+background-color: #FFFFFF;
+border: #ddd 1px solid;
+border-radius: 5px;
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+select>option{
+background-color: #FFFFFF;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+a{
+font-weight: bold;
+display: block;
+margin-bottom: 5px;
+text-align: center;
+}
+
+.secret {
+width: 40%;
+padding: 5px;
+background-color: #FFFFFF;
+color: grey;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 10px;
+}
+
+img {
+max-width: 90%;
+height: auto;
+margin-bottom: 20px;
+}
