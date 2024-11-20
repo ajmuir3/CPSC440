@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     // Retrieve form data
     $user = $_POST['username'];
     $email = $_POST['email'];
-    $role = $_POST['role']
+    $role = $_POST['role'];
     $pass = $_POST['password'];
     $pass2 = $_POST['confirm-password'];
 }
