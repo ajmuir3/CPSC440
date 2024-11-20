@@ -5,19 +5,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     // Retrieve form data
     $user = $_POST['username'];
     $email = $_POST['email'];
+    $role = $_POST['role']
     $pass = $_POST['password'];
-    $ssn_last4 = $_POST['ssn'];
+    $pass2 = $_POST['confirm-password'];
 }
 
-// Prepare and bind
-$stmt = $conn->prepare("INSERT INTO users (username, email, password, ssn_last4) VALUES (?, ?, ?, ?)");
-$stmt->bind_param("ssss", $user, $email, $pass, $ssn_last4);
+if ($pass == $pass2){
+    $stmt = $conn->prepare("INSERT INTO User (UserName, UserEmail, UserRole, UserPassword) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("sssss", $user, $email, $role, $pass);
 
-// Execute the query
-if ($stmt->execute()) {
-    header("Location: welcome.html");
-} else {
-    echo "Error: " . $stmt->error;
+    // Execute the query
+    if ($stmt->execute()) {
+        header("Location: home.html");
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+}
+
+else {
+    echo "<p> Passwords do not match </p>";
 }
 
 // Close connection
