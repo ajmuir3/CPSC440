@@ -1,7 +1,6 @@
 <?php
 include 'conn.php';
 
-<?php
 if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     http_response_code(405); // Method Not Allowed
     die("Only POST requests are allowed.");
