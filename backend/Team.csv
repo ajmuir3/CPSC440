@@ -1,0 +1,51 @@
+TeamID,TeamName,UserID,TaskID
+1,Project Roadmap Team,3,1
+2,Server Setup Team,2,2
+3,Outreach Campaign Team,5,3
+4,Feature Development Team,6,4
+5,Client Presentation Team,4,5
+6,Software Testing Team,2,6
+7,Web Design Team,6,7
+8,Competitor Analysis Team,1,8
+9,Documentation Team,3,9
+10,Server Monitoring Team,2,10
+11,Security Fix Team,6,11
+12,Client Feedback Team,4,12
+13,Event Planning Team,5,13
+14,Code Review Team,6,14
+15,Financial Planning Team,3,15
+16,Marketing Campaign Team,5,16
+17,Scope Review Team,4,17
+18,Bug Fix Team,6,18
+19,Sprint Planning Team,4,19
+20,Customer Service Optimization Team,1,20
+21,Feature Testing Team,6,21
+22,Project Analysis Team,3,22
+23,Marketing Material Team,5,23
+24,Progress Monitoring Team,4,24
+25,API Development Team,6,25
+26,Team Coordination Team,4,26
+27,Onboarding Team,5,27
+28,Production Deployment Team,6,28
+29,Marketing Strategy Team,5,29
+30,Survey Team,4,30
+31,Release Notes Team,6,31
+32,Legacy Code Refactor Team,6,32
+33,Vendor Review Team,3,33
+34,Mobile App Testing Team,2,34
+35,Sprint Retrospective Team,4,35
+36,Chatbot Feature Team,6,36
+37,User Persona Team,5,37
+38,Data Pipeline Team,6,38
+39,Q&A Session Team,4,39
+40,Email Template Team,5,40
+41,Server Load Testing Team,2,41
+42,Client Meeting Team,4,42
+43,Third-Party Integration Team,6,43
+44,AB Test Analysis Team,5,44
+45,Wireframe Design Team,6,45
+46,Budget Planning Team,1,46
+47,Database Optimization Team,6,47
+48,Internal Wiki Team,5,48
+49,Sprint Activity Team,4,49
+50,Beta Version Launch Team,6,50

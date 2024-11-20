@@ -1,0 +1,51 @@
+TaskID,TaskTitle,TaskPriority,TaskDueDate,TaskStatus,TaskDescription,TaskCreationDate,UserID
+1,Create project roadmap,1,2024-12-01,Not Started,Define the project roadmap,2024-11-01,3
+2,Set up server environment,2,2024-11-30,In Progress,Set up cloud server infrastructure,2024-11-05,2
+3,Conduct outreach campaign,3,2024-12-15,In Progress,Launch an outreach marketing campaign,2024-11-10,5
+4,Develop new feature,1,2024-12-10,Blocked,Fix bugs and deploy new feature,2024-11-02,6
+5,Prepare client presentation,2,2024-11-25,Done,Create slides for client meeting,2024-11-05,4
+6,Test new software,3,2024-12-05,Not Started,QA testing for new software version,2024-11-07,2
+7,Design website layout,1,2024-12-01,In Progress,Create the initial design for the website,2024-11-01,6
+8,Research competitor features,2,2024-11-25,Done,Analyze competitor products for new features,2024-11-05,1
+9,Write user documentation,2,2024-12-10,Not Started,Create help documentation for users,2024-11-01,3
+10,Monitor server uptime,3,2024-11-30,In Progress,Track the server uptime and performance,2024-11-10,2
+11,Fix security vulnerabilities,1,2024-11-20,Blocked,Resolve security issues on the server,2024-11-03,6
+12,Conduct client interview,1,2024-12-05,In Progress,Interview client for feedback,2024-11-05,4
+13,Plan team event,3,2024-12-01,Not Started,Organize team-building event,2024-11-10,5
+14,Code review for new feature,1,2024-12-03,In Progress,Review code for the upcoming release,2024-11-05,6
+15,Prepare financial report,2,2024-11-25,Done,Prepare report for the Q4 budget,2024-11-01,3
+16,Launch new marketing campaign,3,2024-12-15,In Progress,Launch the Q4 marketing campaign,2024-11-10,5
+17,Review project scope,2,2024-12-05,In Progress,Revisit the project requirements,2024-11-15,4
+18,Fix UI bugs,1,2024-12-01,Done,Resolve UI issues in the app,2024-11-01,6
+19,Conduct sprint planning,1,2024-11-25,Done,Plan the tasks for the next sprint,2024-11-02,4
+20,Improve customer service workflow,2,2024-12-10,Not Started,Optimize the customer service process,2024-11-12,1
+21,Test new features,1,2024-12-05,In Progress,Test new app features,2024-11-10,6
+22,Analyze project data,3,2024-12-01,In Progress,Analyze data for project progress,2024-11-05,3
+23,Create marketing material,2,2024-12-15,In Progress,Design posters for marketing campaign,2024-11-15,5
+24,Monitor progress,3,2024-11-25,Done,Track overall project progress,2024-11-10,4
+25,Develop API,1,2024-12-10,Blocked,Develop API for external integrations,2024-11-05,6
+26,Coordinate cross-functional team,2,2024-12-01,Not Started,Coordinate team efforts for project,2024-11-05,4
+27,Create onboarding materials,2,2024-11-30,In Progress,Create onboarding content for new employees,2024-11-07,5
+28,Deploy to production,1,2024-12-01,Blocked,Deploy new features to the production server,2024-11-10,6
+29,Prepare marketing strategy,1,2024-12-15,In Progress,Define the marketing strategy for the quarter,2024-11-11,5
+30,Client feedback survey,3,2024-11-30,Done,Send out surveys to clients for feedback,2024-11-01,4
+31,Write release notes,1,2024-11-20,Not Started,Write release notes for the upcoming version,2024-11-01,6
+32,Refactor legacy code,2,2024-12-05,In Progress,Refactor legacy codebase for performance,2024-11-12,6
+33,Review vendor contracts,2,2024-12-01,In Progress,Review contracts with third-party vendors,2024-11-15,3
+34,Test mobile app,3,2024-11-30,In Progress,Test the new mobile app release,2024-11-10,2
+35,Organize sprint retrospective,1,2024-12-10,Done,Organize and conduct sprint retrospective,2024-11-08,4
+36,Implement chatbot feature,1,2024-11-20,Blocked,Implement chat feature for website,2024-11-01,6
+37,Create user personas,3,2024-12-05,In Progress,Create user personas for the marketing team,2024-11-12,5
+38,Build data pipeline,1,2024-12-01,Not Started,Set up data pipeline for analytics,2024-11-03,6
+39,Host Q&A session,2,2024-11-30,Done,Host a Q&A session with the team,2024-11-05,4
+40,Develop email templates,2,2024-12-01,Not Started,Create email templates for marketing campaigns,2024-11-15,5
+41,Test server load,1,2024-12-10,Blocked,Test server performance under load,2024-11-20,2
+42,Host client meeting,3,2024-11-25,In Progress,Host a meeting to review project status,2024-11-10,4
+43,Integrate third-party service,1,2024-12-15,Not Started,Integrate third-party service into the product,2024-11-10,6
+44,Analyze A/B test results,1,2024-12-01,Not Started,Review results of A/B tests,2024-11-15,5
+45,Create wireframes,2,2024-12-05,Done,Design wireframes for new app feature,2024-11-01,6
+46,Prepare budget proposal,3,2024-11-30,In Progress,Prepare budget for next quarter,2024-11-05,1
+47,Optimize database queries,1,2024-12-10,Not Started,Optimize SQL queries for performance,2024-11-03,6
+48,Create internal wiki,3,2024-11-20,Done,Create an internal knowledge base,2024-11-08,5
+49,Plan sprint activities,2,2024-12-01,In Progress,Plan activities for the upcoming sprint,2024-11-10,4
+50,Launch beta version,1,2024-12-05,Not Started,Launch the beta version of the app,2024-11-12,6
