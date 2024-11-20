@@ -1,6 +1,12 @@
 <?php
 include 'conn.php';
 
+<?php
+if ($_SERVER['REQUEST_METHOD'] != 'POST') {
+    http_response_code(405); // Method Not Allowed
+    die("Only POST requests are allowed.");
+}
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     // Retrieve form data
     $user = $_POST['username'];
