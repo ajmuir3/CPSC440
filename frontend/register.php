@@ -10,20 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $pass2 = $_POST['confirm-password'];
 }
 
-if ($pass == $pass2){
-    $stmt = $conn->prepare("INSERT INTO User (UserName, UserEmail, UserRole, UserPassword) VALUES (?, ?, ?, ?)");
-    $stmt->bind_param("sssss", $user, $email, $role, $pass);
+$stmt = $conn->prepare("INSERT INTO User (UserName, UserEmail, UserRole, UserPassword) VALUES (?, ?, ?, ?)");
+$stmt->bind_param("ssss", $user, $email, $role, $pass);
 
-    // Execute the query
-    if ($stmt->execute()) {
-        header("Location: home.html");
-    } else {
-        echo "Error: " . $stmt->error;
-    }
-}
-
-else {
-    echo "<p> Passwords do not match </p>";
+// Execute the query
+if ($stmt->execute()) {
+    header("Location: home.html");
+} else {
+    echo "Error: " . $stmt->error;
 }
 
 // Close connection
